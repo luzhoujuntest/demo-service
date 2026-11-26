@@ -19,7 +19,7 @@ USER spring
 # 6. 设置时区 (保留示例2的正确性)
 
 # 7. 暴露端口
-EXPOSE 8080
+EXPOSE 8082
 
 # 8. 启动命令：使用 MaxRAMPercentage 自动适配容器内存限制，而非硬编码 Xmx
 # 同时启用 G1GC 以获得更好的低延迟表现
